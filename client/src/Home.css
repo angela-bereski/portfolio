@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.homeHome {
+    background-color: #efdad0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-family: montserrat;
+    min-height: 78vh;
+}
+
+.descripA {
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2px;
+    align-items: center;
+}
+
+.descrip2A {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title1 {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+    padding: 0px 0px 5px 0px;
+
+}
+
+.title2 {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #efdad0;
+    text-shadow: 2px .5px 6px #ec3aab;
+    padding: 0px 0px 5px 0px;
+}
+
+.title3 {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+    padding: 0px 0px 5px 0px;
+}
+
+.title4 {
+    font-size: large;
+    font-weight: 500;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+    
+}
+
+.title5 {
+    font-size: x-large;
+    font-weight: 400;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+}
+
+.bugs {
+    width: 50px;
+    height: 50px;
+}
+
+img {
+    touch-action: manipulation;
+
+}
+
+p {
+    margin: 0px 0px 10px 0px ;
+}
+
+.navButtonHome {
+    align-self: center;
+    background-color: #5b6468;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ec3aab;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #efdad0;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .65rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 1em;
+  }
+  
+  .navButtonHome:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+    color: #ec3aab;
+  }
+  
+  .navButtonHome:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }

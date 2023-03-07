@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.footer {
+    background-color: #d291af;
+    /* border: 10px solid #efdad0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: montserrat;
+}
+
+span {
+    font-size: medium;
+    font-weight: 400;
+    color: #efdad0;
+    text-shadow: 1px 1px 1px #5b6468;
+    padding: 10px
+}
