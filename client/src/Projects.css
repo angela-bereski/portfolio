@@ -1,0 +1,16 @@
+.projectsMain {
+    background-color: #efdad0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    font-family: montserrat;
+    min-height: 78vh;
+}
+
+.title222 {
+    font-size: x-large;
+    font-weight: 800;
+    color: #efdad0;
+    text-shadow: 2px .5px 6px #ec3aab;
+}

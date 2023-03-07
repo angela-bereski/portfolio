@@ -1,0 +1,113 @@
+
+
+.skillsMain {
+    background-color: #efdad0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    font-family: montserrat;
+    min-height: 78vh;
+}
+
+.leftSide, .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    font-family: montserrat;
+}
+
+.docu {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ec3aab;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    margin: 10px 2.5px;
+}
+
+
+.toolScroll {
+    align-self: center;
+    background-color: #efdad0;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ec3aab;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #5b6468;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 1.5rem .5rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: .75em
+}
+
+.toolScroll:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 4px, 0);
+}
+
+.toolScroll:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.logos {
+    overflow: hidden;
+    display: flex;
+    height: 100px;
+    width: 450px;
+    margin: 0 auto;
+    margin: 15px 0px;
+}
+
+.logos2 {
+    overflow: hidden;
+    display: flex;
+    height: 100px;
+    width: 450px;
+    margin: 0 auto;
+    margin: 15px 0px;
+}
+
+.logos img {
+    height: 75px;
+    width: 75px;
+    padding: 10px 0px;
+    margin-left: 25px;
+    animation: slide 10s linear infinite;
+}
+
+.logos2 img {
+    height: 75px;
+    width: 75px;
+    padding: 10px 0px;
+    margin-left: 25px;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(-125px, 0, 0)
+    }
+}
