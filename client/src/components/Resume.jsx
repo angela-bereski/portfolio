@@ -74,7 +74,7 @@ const Resume = () => {
           </button>
         </div>
       </div>
-      <div className='rightSide'>
+      <div className='rightSide '>
         <div className='toolScroll flex lg:flex-col md:flex-row'>
           <span className='title55'>Technical Skills</span>
             <div className='logos'>

@@ -114,10 +114,14 @@
 
 @media (max-width: 767px){
 
-    .docu {
-        width: 250px;
-        height: 172px;
+    .react-pdf__Page__canvas {
+        margin: 0 auto;
+        width: 80% !important;
+        height: 100% !important;
     }
 
-
+    .skillsMain, .leftSide, .rightSide {
+        display: flex;
+        flex-direction: column;
+    }
 }
