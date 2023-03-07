@@ -48,6 +48,10 @@
         flex-direction: column;
     }
 
+    .words {
+        text-align: center;
+    }
+
   }
 
 .title11 {
