@@ -49,7 +49,7 @@ const Resume = () => {
   }
   return (
 
-    <div className='skillsMain'>
+    <div className='skillsMain flex p-1 justify-around flex-wrap rounded'>
       <div className='leftSide'>
         <Document className="docu"
         file={resume}
