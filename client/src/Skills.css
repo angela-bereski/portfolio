@@ -118,10 +118,19 @@
         margin: 0 auto;
         width: 80% !important;
         height: 100% !important;
+        max-width: 350px;
     }
 
     .skillsMain, .leftSide, .rightSide {
         display: flex;
         flex-direction: column;
+    }
+
+    .toolScroll {
+        max-width: 350px;
+    }
+
+    .logos, .logos2 {
+        max-width: 315px;
     }
 }
