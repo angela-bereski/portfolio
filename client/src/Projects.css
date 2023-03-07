@@ -14,3 +14,58 @@
     color: #efdad0;
     text-shadow: 2px .5px 6px #ec3aab;
 }
+
+.title333 {
+    font-size: large;
+    font-weight: 500;
+    color: #5b6468;
+    text-shadow: .5px 1px 1px #d291af;
+}
+
+.title444 {
+    font-size: large;
+    font-weight: 500;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+}
+
+.title555 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+}
+
+.leftSideProj, .rightSideProj {
+    margin: 1em 0em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    flex: 2;
+}
+
+.projPhoto {
+    height: 275px;
+    width: 450px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    margin: 1px 10px
+}
+
+@media (max-width: 767px){
+
+    .projPhoto {
+        width: 250px;
+        height: 172px;
+    }
+
+    .projPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
