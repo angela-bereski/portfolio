@@ -1,0 +1,106 @@
+.home {
+    background-color: #efdad0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: montserrat;
+    min-height: 78vh;
+}
+
+.descrip {
+    margin: 1em 0em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    flex: 2;
+}
+
+.descrip2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em;
+
+}
+
+.ab {
+    height: 275px;
+    width: 400px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    margin: 1px 10px
+}
+
+@media (max-width: 767px){
+
+    .ab {
+        width: 250px;
+        height: 172px;
+    }
+
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+
+.title11 {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+
+}
+
+.title22 {
+    font-size: x-large;
+    font-weight: 800;
+    color: #efdad0;
+    text-shadow: 2px .5px 6px #ec3aab;
+}
+
+.title33 {
+    font-size: large;
+    font-weight: 500;
+    color: #5b6468;
+    text-shadow: .5px 1px 1px #d291af;
+}
+
+.title44 {
+    font-size: large;
+    font-weight: 500;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+}
+
+.title55 {
+    font-size: x-large;
+    font-weight: 600;
+    color: #5b6468;
+    text-shadow: 2px 2px 2px #d291af;
+}
+
+.hats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: #ec3aab 2px solid;
+    border-radius: 15px 255px 255px 15px 15px 255px 255px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+}
+
+.hatPic {
+    height: 100px;
+    width: 100px;
+}
