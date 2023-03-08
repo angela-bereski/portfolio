@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <p className='title555'>The Ballot Box</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <a href="http://100.26.160.109/"><img className='projPhoto' src={ballotBox} alt="screen shot of the Ballot Box App" /></a>
+                  <a href="http://100.26.160.109/" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of the Ballot Box App" /></a>
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Virtual Polling Center</p>
@@ -21,19 +21,19 @@ const Projects = () => {
 </p>
                     <p className='title333'>Elect wisely.</p>
                 </div>
-                <button className="navButtonHome" onClick={()=> {audio.play()} }><a href="http://100.26.160.109/">The Ballot Box</a></button>
+                <button className="navButtonHome" onClick={()=> {audio.play()} }><a href="http://100.26.160.109/" target='_blank'>The Ballot Box</a></button>
         </div>
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
           <p className='title555'>Been There, Run That</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <a href="http://100.25.77.155/"><img className='projPhoto' src={beenThere} alt="screen shot of Been There, Run That App" /></a>
+                  <a href="http://100.25.77.155/" target='_blank'><img className='projPhoto' src={beenThere} alt="screen shot of Been There, Run That App" /></a>
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Online Community for Runners</p>
                     <p className='title333'>Java| Spring | MySQL<br/>Online running community with full CRUD capabilities.<br/>Logged in users can create, edit, and delete their runs and also connect with other runners by cheering for them or requesting mile dedications. Runners can also upload photos from their runs. Passwords are hashed with Bcrypt. Deployed with AWS.</p>
                     <p className='title333'>Get your run on.</p>
                 </div>
-                <button className="navButtonHome" onClick={()=> {audio.play()} }><a href="http://100.25.77.155/">Been There, Run That</a></button>
+                <button className="navButtonHome" onClick={()=> {audio.play()} }><a href="http://100.25.77.155/" target='_blank'>Been There, Run That</a></button>
             </div>
         </div>
     </div>
