@@ -147,3 +147,10 @@
     color: #5b6468;
     text-shadow: 2px 2px 2px #d291af;
 }
+
+@media (max-width: 767px){
+
+    .formBox {
+        width: 375px;
+    }
+}
