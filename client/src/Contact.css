@@ -8,6 +8,123 @@
     min-height: 78vh;
 }
 
+.formBox {
+    align-self: center;
+    background-color: #efdad0;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ec3aab;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #5b6468;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+
+    margin: .75em
+}
+
+.navButtonForm {
+    align-self: center;
+    background-color: #5b6468;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ec3aab;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #efdad0;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .65rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 1em 0em 0em 0em;
+  }
+  
+  .navButtonForm:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+    color: #ec3aab;
+  }
+  
+  .navButtonForm:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+.formFields {
+    background-color: rgb(210, 145, 175, .15);
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 5px 5px 5px;
+}
+
+.formFields textArea, input {
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ec3aab;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #5b6468;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 1.5rem .5rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    margin: .75em
+}
+
+
 .title1111 {
     font-size: xx-large;
     font-weight: 800;
@@ -24,7 +141,7 @@
     text-shadow: 2px .5px 6px #ec3aab;
 }
 
-.title4444 {
+.title4444, label {
     font-size: x-large;
     font-weight: 500;
     color: #5b6468;
