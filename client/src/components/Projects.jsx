@@ -10,9 +10,21 @@ import wmClub from '../assets/wmClub.svg'
 import pgTech from '../assets/pgTech.svg'
 import mcLogo from '../assets/mcLogo.svg'
 import pgWeb from '../assets/pgWebsite.png'
+import wsLogo from '../assets/wsLogo.svg'
+import mcHome from '../assets/mindfulCampusHome.png'
+import comingSoon from '../assets/comingSoon.png'
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import bbLogin from '../assets/bbLogin.png'
+import bbReg from '../assets/bbReg.png'
+import bbCand from '../assets/bbCand.png'
+import mcLogReg from '../assets/mcLogReg.png'
+import mcResources from '../assets/mcResources.png'
+import mcBB from '../assets/mcBB.png'
 
 const Projects = () => {
     const audio = new Audio(buttonSound)
+
 
   return (
     <div className='projectsMain flex p-1 justify-around flex-wrap rounded'>
@@ -58,11 +70,55 @@ const Projects = () => {
                     <p className='title333'>Serves as a hub for a tech consulting company, offering a range of services including website building, branding, custom full-stack application development, data analytics, and more. It provides a user-friendly interface to showcase the company's expertise and engage potential clients.</p>
                     <p className='title333'>Creative Tech Solutions.</p>
                 </div>
-                <button className="navButtonHome" onClick={()=> {audio.play()} }>Coming Soon...</button>
+                <button className="navButtonHome" onClick={()=> {audio.play(); alert("Check back soon for the live site!")} }>Coming Soon...</button>
         </div>
         </div>
         <span className='title666'>FULL STACK APPLICATIONS</span>
         <hr className='horizontal-line'/>
+        <div className='projPage flex-row flex p-1 lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-around flex-wrap rounded'>
+            <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
+              
+            <p className='title555'>Mindful Campus</p>
+                <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
+                <Carousel showThumbs={false} className='projPhoto'>
+                  <div>
+                  <img className='projPhoto' src={mcHome} alt="screen shot of Mindful Campus Home Page" />
+                  </div>
+                  <div>
+                  <img className='projPhoto' src={mcLogReg} alt="screen shot of Mindful Campus Home Page" />
+                  </div>
+                  <div>
+                  <img className='projPhoto' src={mcResources} alt="screen shot of Mindful Campus Home Page" />
+                  </div>
+                  <div>
+                  <img className='projPhoto' src={mcBB} alt="screen shot of Mindful Campus Home Page" />
+                  </div>
+                </Carousel>
+                </div>
+                <div className='projWords'>
+                    <p className='title222'>Virtual Student Portal</p>
+                    <p className='title333'>MongoDB | Express | React.js | Node.js</p>
+                    <p className='title333'>Online community for BMTI students. Users can login to access a personalized dashboard with to do lists, networking, job boards, resources, yoga, meditation, countdowns, and more.</p>
+                    <p className='title333'>Connecting students mindfully.</p>
+                </div>
+                <button className="navButtonHome" onClick={()=> {audio.play(); alert("Check back soon for a demo!")} }>Demo Coming Soon...</button>
+        </div>
+        
+        <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
+        <p className='title555'>The Clubhouse</p>
+                <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
+                  <img className='projPhoto' src={comingSoon} alt="screen shot of the Ballot Box App" />
+                </div>
+                <div className='projWords'>
+                    <p className='title222'>Virtual Clubhouse for HOA Members</p>
+                    <p className='title333'>MongoDB | Express | React.js | Node.js | Socket.io</p>
+                    <p className='title333'>Virtual clubhouse where HOA members can connect. Users login to a personalized dashboard where they have access to community forums, clubs, events, direct messaging, HOA request forms, calendars, and more.</p>
+                    <p className='title333'>Gathering virtually. Bonding authentically.</p>
+                </div>
+                <button className="navButtonHome" onClick={()=> {audio.play(); alert("Check back soon for a demo!")} }>Demo Coming Soon...</button>
+
+            </div>
+        </div>
         <div className='projPage flex-row flex p-1 lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-around flex-wrap rounded'>
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
             <p className='title555'>Been There, Run That</p>
@@ -81,7 +137,21 @@ const Projects = () => {
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
         <p className='title555'>The Ballot Box</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
+                <Carousel showThumbs={false} className='projPhoto'>
+                  <div>
                   <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of the Ballot Box App" /></a>
+                  </div>
+                  <div>
+                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={bbLogin} alt="screen shot of the Ballot Box App" /></a>
+                  </div>
+                  <div>
+                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={bbReg} alt="screen shot of the Ballot Box App" /></a>
+                  </div>
+                  <div>
+                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={bbCand} alt="screen shot of the Ballot Box App" /></a>
+                  </div>
+                </Carousel>
+                  {/* <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of the Ballot Box App" /></a> */}
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Virtual Polling Center</p>
@@ -119,16 +189,23 @@ const Projects = () => {
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
                   <img className='projPhoto' src={pgTech} alt="screen shot of Massage School Website" />
                 </div>
-        </div>
-        <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
-          <p className='title555'>Mindful Campus</p>
+            </div>
+          <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
+                <p className='title555'>Mindful Campus</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
                   <img className='projPhoto' src={mcLogo} alt="screen shot of Been There, Run That App" />
                 </div>
-              
-            </div>
-            
+          </div>
         </div>
+        <div className='projPage flex-row flex p-1 lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-around flex-wrap rounded'>
+            <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
+                <p className='title555'>Wandering Sparrow Wellness</p>
+                <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
+                  <img className='projPhoto' src={wsLogo} alt="screen shot of Massage School Website" />
+                </div>
+            </div>
+        </div>
+        
         
         
     </div>
