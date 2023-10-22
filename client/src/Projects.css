@@ -36,6 +36,13 @@
     text-shadow: 2px 2px 2px #d291af;
 }
 
+.title666 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: #efdad0;
+    text-shadow: 2px .5px 6px #ec3aab;
+}
+
 .leftSideProj, .rightSideProj {
     margin: 1em 0em;
     display: flex;
@@ -55,6 +62,11 @@
     border-top-right-radius: 15px 225px;
     margin: 1px 10px
 }
+
+.horizontal-line {
+    width: 100%; /* Adjust the width as needed */
+    border: .5px dotted #ec3aab; /* Line color and thickness */
+  }
 
 @media (max-width: 767px){
 
