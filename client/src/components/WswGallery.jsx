@@ -35,13 +35,13 @@ const WswGallery = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wswHome} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={wswHome} alt="screen shot of WSW Home Page" />
                 </div>
         </div>
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wswAbout} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={wswAbout} alt="screen shot of WSW About Section" />
                 </div>
             </div>
         </div>
@@ -50,13 +50,13 @@ const WswGallery = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wswServices} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={wswServices} alt="screen shot of WSW Services" />
                 </div>
         </div>
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wswContact} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={wswContact} alt="screen shot of WSW Contact" />
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ const WswGallery = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wswGC} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={wswGC} alt="screen shot of WSW Square POS for Gift Cards" />
                 </div>
         </div>
         </div>
