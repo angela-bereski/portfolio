@@ -32,13 +32,13 @@ const McGallery = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={mcHome} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={mcHome} alt="screen shot of the MC Home Page" />
                 </div>
         </div>
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={mcLogReg} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={mcLogReg} alt="screen shot of MC Login Register Page" />
                 </div>
             </div>
         </div>
@@ -47,13 +47,13 @@ const McGallery = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={mcBB} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={mcBB} alt="screen shot of Brain Breaks" />
                 </div>
         </div>
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={mcResources} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={mcResources} alt="screen shot of Resources" />
                 </div>
             </div>
         </div>

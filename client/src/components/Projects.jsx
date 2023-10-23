@@ -13,6 +13,7 @@ import pgWeb from '../assets/pgWebsite.png'
 import wsLogo from '../assets/wsLogo.svg'
 import mcHome from '../assets/mindfulCampusHome.png'
 import comingSoon from '../assets/comingSoon.png'
+import wswHome from '../assets/wswHome.png'
 
 
 import {useNavigate} from 'react-router-dom'
@@ -60,7 +61,7 @@ const scrollToTopBB = () => {
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
           <p className='title555'>WM HOA</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <a href="https://www.wyomissingmeadows.net/" target='_blank'><img className='projPhoto' src={wmHOA} alt="screen shot of Been There, Run That App" /></a>
+                  <a href="https://www.wyomissingmeadows.net/" target='_blank'><img className='projPhoto' src={wmHOA} alt="screen shot of HOA Website" /></a>
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Homeowners Association Community Website</p>
@@ -88,7 +89,7 @@ const scrollToTopBB = () => {
                 <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
           <p className='title555'>Wandering Sparrow Wellness</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wmHOA} alt="screen shot of Been There, Run That App" />
+                  <img className='projPhoto' src={wswHome} alt="screen shot of WSW Website" />
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Yoga & Massage Business Website</p>
@@ -107,7 +108,7 @@ const scrollToTopBB = () => {
               
             <p className='title555'>Mindful Campus</p>
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={mcHome} alt="screen shot of Been There, Run That App" />
+                  <img className='projPhoto' src={mcHome} alt="screen shot of MC Website" />
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Virtual Student Portal</p>
@@ -120,7 +121,7 @@ const scrollToTopBB = () => {
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
         <p className='title555'>The Clubhouse</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={comingSoon} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={comingSoon} alt="Pic of Coming Soon" />
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Virtual Clubhouse for HOA Members</p>
@@ -150,7 +151,7 @@ const scrollToTopBB = () => {
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
         <p className='title555'>The Ballot Box</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of Been There, Run That App" /></a>
+                <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of Ballot Box" /></a>
 
                 </div>
                 <div className='projWords'>
@@ -170,14 +171,14 @@ const scrollToTopBB = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <p className='title555'>WM HOA</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wmLogo} alt="screen shot of Massage School Website" />
+                  <img className='projPhoto' src={wmLogo} alt="Pic of HOA Logo" />
                 </div>
                 
         </div>
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
           <p className='title555'>WM Clubhouse</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wmClub} alt="screen shot of Been There, Run That App" />
+                  <img className='projPhoto' src={wmClub} alt="Pic of Clubhouse Logo" />
                 </div>
                 
             </div>
@@ -187,13 +188,13 @@ const scrollToTopBB = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <p className='title555'>PG Tech Creations</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={pgTech} alt="screen shot of Massage School Website" />
+                  <img className='projPhoto' src={pgTech} alt="pic of PGTech Logo" />
                 </div>
             </div>
           <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <p className='title555'>Mindful Campus</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={mcLogo} alt="screen shot of Been There, Run That App" />
+                  <img className='projPhoto' src={mcLogo} alt="Pic of MC Logo" />
                 </div>
           </div>
         </div>
@@ -201,7 +202,7 @@ const scrollToTopBB = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <p className='title555'>Wandering Sparrow Wellness</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={wsLogo} alt="screen shot of Massage School Website" />
+                  <img className='projPhoto' src={wsLogo} alt="Pic of WSW Logo" />
                 </div>
             </div>
         </div>

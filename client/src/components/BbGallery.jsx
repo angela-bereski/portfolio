@@ -38,7 +38,7 @@ const BbGallery = () => {
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={bbLogin} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={bbLogin} alt="screen shot of the Ballot Box Login" />
                 </div>
             </div>
         </div>
@@ -47,13 +47,13 @@ const BbGallery = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={bbReg} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={bbReg} alt="screen shot of the Ballot Box Register" />
                 </div>
         </div>
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                  <img className='projPhoto' src={bbCand} alt="screen shot of the Ballot Box App" />
+                  <img className='projPhoto' src={bbCand} alt="screen shot of the Ballot Box Add Candidate Form" />
                 </div>
             </div>
         </div>
