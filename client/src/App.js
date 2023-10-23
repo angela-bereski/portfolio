@@ -8,6 +8,9 @@ import Resume from './components/Resume';
 import Hamburger from './components/Hamburger';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import WswGallery from './components/WswGallery';
+import McGallery from './components/McGallery';
+import BbGallery from './components/BbGallery';
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
           <Route element={<Resume />} path="/resume" />
           <Route element={<Projects />} path="/projects" />
           <Route element={<Contact />} path="/contact" />
+          <Route element={<WswGallery />} path="/wswgallery" />
+          <Route element={<McGallery />} path="/mcgallery" />
+          <Route element={<BbGallery />} path="/bbgallery" />
         </Routes>
       <Footer />
       </BrowserRouter>

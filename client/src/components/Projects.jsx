@@ -13,18 +13,31 @@ import pgWeb from '../assets/pgWebsite.png'
 import wsLogo from '../assets/wsLogo.svg'
 import mcHome from '../assets/mindfulCampusHome.png'
 import comingSoon from '../assets/comingSoon.png'
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import bbLogin from '../assets/bbLogin.png'
-import bbReg from '../assets/bbReg.png'
-import bbCand from '../assets/bbCand.png'
-import mcLogReg from '../assets/mcLogReg.png'
-import mcResources from '../assets/mcResources.png'
-import mcBB from '../assets/mcBB.png'
 
+
+import {useNavigate} from 'react-router-dom'
 const Projects = () => {
     const audio = new Audio(buttonSound)
 
+    const navigate = useNavigate();
+
+    const scrollToTopWSW = () => {
+      audio.play();
+      navigate('/wswgallery');
+      window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolls to the top of the page smoothly
+  };
+
+  const scrollToTopMC = () => {
+    audio.play();
+    navigate('/mcgallery');
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolls to the top of the page smoothly
+};
+
+const scrollToTopBB = () => {
+  audio.play();
+  navigate('/bbgallery');
+  window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolls to the top of the page smoothly
+};
 
   return (
     <div className='projectsMain flex p-1 justify-around flex-wrap rounded'>
@@ -71,7 +84,21 @@ const Projects = () => {
                     <p className='title333'>Creative Tech Solutions.</p>
                 </div>
                 <button className="navButtonHome" onClick={()=> {audio.play(); alert("Check back soon for the live site!")} }>Coming Soon...</button>
-        </div>
+                </div>
+                <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
+          <p className='title555'>Wandering Sparrow Wellness</p>
+                <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
+                  <img className='projPhoto' src={wmHOA} alt="screen shot of Been There, Run That App" />
+                </div>
+                <div className='projWords'>
+                    <p className='title222'>Yoga & Massage Business Website</p>
+                    <p className='title333'>Wix | CSS | HTML | Javascript | Mailchimp | Square</p>
+                    <p className='title333'>The website features a variety of services, including massages like Swedish and deep tissue, sports massage, cupping therapy, and private yoga sessions tailored to individual needs. It aims to capture the essence of "Wandering Sparrow Wellness" by promoting relaxation and wellness goals.</p>
+                    <p className='title333'>Seek. Practice. Find.</p>
+                </div>
+                <button className="navButtonHome" onClick={scrollToTopWSW}>View Gallery</button>
+            </div>
+        
         </div>
         <span className='title666'>FULL STACK APPLICATIONS</span>
         <hr className='horizontal-line'/>
@@ -79,21 +106,8 @@ const Projects = () => {
             <div className='leftSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
               
             <p className='title555'>Mindful Campus</p>
-                <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                <Carousel showThumbs={false} className='projPhoto'>
-                  <div>
-                  <img className='projPhoto' src={mcHome} alt="screen shot of Mindful Campus Home Page" />
-                  </div>
-                  <div>
-                  <img className='projPhoto' src={mcLogReg} alt="screen shot of Mindful Campus Home Page" />
-                  </div>
-                  <div>
-                  <img className='projPhoto' src={mcResources} alt="screen shot of Mindful Campus Home Page" />
-                  </div>
-                  <div>
-                  <img className='projPhoto' src={mcBB} alt="screen shot of Mindful Campus Home Page" />
-                  </div>
-                </Carousel>
+            <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
+                  <img className='projPhoto' src={mcHome} alt="screen shot of Been There, Run That App" />
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Virtual Student Portal</p>
@@ -101,8 +115,7 @@ const Projects = () => {
                     <p className='title333'>Online community for BMTI students. Users can login to access a personalized dashboard with to do lists, networking, job boards, resources, yoga, meditation, countdowns, and more.</p>
                     <p className='title333'>Connecting students mindfully.</p>
                 </div>
-                <button className="navButtonHome" onClick={()=> {audio.play(); alert("Check back soon for a demo!")} }>Demo Coming Soon...</button>
-        </div>
+                <button className="navButtonHome" onClick={scrollToTopMC}>View Gallery</button>        </div>
         
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
         <p className='title555'>The Clubhouse</p>
@@ -137,21 +150,8 @@ const Projects = () => {
         <div className='rightSideProj flex-row flex p-1 justify-around flex-wrap rounded'>
         <p className='title555'>The Ballot Box</p>
                 <div className='toolScroll flex-row flex p-1 justify-around flex-wrap rounded'>
-                <Carousel showThumbs={false} className='projPhoto'>
-                  <div>
-                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of the Ballot Box App" /></a>
-                  </div>
-                  <div>
-                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={bbLogin} alt="screen shot of the Ballot Box App" /></a>
-                  </div>
-                  <div>
-                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={bbReg} alt="screen shot of the Ballot Box App" /></a>
-                  </div>
-                  <div>
-                  <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={bbCand} alt="screen shot of the Ballot Box App" /></a>
-                  </div>
-                </Carousel>
-                  {/* <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of the Ballot Box App" /></a> */}
+                <a href="https://github.com/angela-bereski/votingApp" target='_blank'><img className='projPhoto' src={ballotBox} alt="screen shot of Been There, Run That App" /></a>
+
                 </div>
                 <div className='projWords'>
                     <p className='title222'>Virtual Polling Center</p>
@@ -159,7 +159,7 @@ const Projects = () => {
                     <p className='title333'>CRUD online voting platform built with MERN stack.<br/>Logged in users can create, edit, and delete candidates. Voters can view candidates, and are limited to one vote per session. Passwords are hashed with Bcrypt. Utilizes exception handling, promises, and RESTful APIs. Deployed with AWS.</p>
                     <p className='title333'>Elect wisely.</p>
                 </div>
-                <button className="navButtonHome" onClick={()=> {audio.play()} }><a href="https://github.com/angela-bereski/votingApp" target='_blank'>Ballot Box Github</a></button>
+                <button className="navButtonHome" onClick={scrollToTopBB}>View Gallery</button>
 
             </div>
         </div>
